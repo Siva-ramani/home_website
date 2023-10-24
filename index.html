@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homes</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!-- Bootstrap JS (includes Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Your Custom JS -->
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <img class="navbar-brand" src="image/logo.png">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#properties">Properties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Promoters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Find a Talent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Suppliers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-enquiry nav-link">Add Enquiry</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-signup nav-link">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="welcome">
+    <div class="welcome_msg">
+        <h2 style="color: #f58634 ;">Welcome to</h2>
+        <h1 style="color:#1E2B4C;">Tirupur Homes</h1>
+        <h3 style="color: #f58634 ;">Your Local Partner in Real Estate</h3>
+        <p>We specialize in helping you find the perfect</p>
+        <p>piece of land or property in our beautiful locality.</p>
+        
+        <!-- Updated Search Container -->
+        <div class="search-container">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="search-addon"><i class="fa fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control search" placeholder="Search Your Property Here..." aria-label="Search" aria-describedby="search-addon">
+            </div>
+            <button style="background-color:#1E2B4C;"class="search-btn">Search</button>
+        </div>
+        
+    </div>
+</div>
+<div style="background-color: #1E2B4C;" class="container_text-center_mt-5">
+    <h1 style="color:#fff">Categories</h1>
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/1.jpg" alt="Category 1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Agriculture Land</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/2.jpg" alt="Category 2" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Residential Land</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/3.jpg" alt="Category 3" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Individual Houses</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/4.jpg" alt="Category 4" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Apartments</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slider-container mt-5">
+    <h1 class="Top_heading"style="color:#1E2B4C;">Top Properties</h1>
+    <div class="slider">
+        <div class="slide active" id="slide1">
+            <div class="text-content">
+                <h3>Mano Constructions in</h3>
+            <h1 style="color:#EA892A;>SS Avenue</h1>
+            <p><i class="fas fa-map-marker-alt"></i>Velampalayam,Tirupur</p>
+            <h1>&#8377;6.5L to 8L</h1>
+            <button style="background-color:#1E2B4C;color: white;">More Details<i class="fas fa-arrow-right"></i></button>
+            </div>
+            <img src="image/h1.jpg" alt="Image for Page 1">
+        </div>
+        <div class="slide" id="slide2">
+            <div class="text-content">
+                    <h3>Deva Builders in</h3>
+            <h1 style="color:#EA892A;">Luxury Villa</h1>
+            <p><i class="fas fa-map-marker-alt"></i> Mannarai,Tirupur</p>
+            <h1>&#8377;5.5L to 7.5L</h1>
+            <button style="background-color:#1E2B4C;color: white;">More Details<i class="fas fa-arrow-right"></i></button>
+            </div>
+            <img src="image/h2.jpg" alt="Image for Page 2">
+        </div>
+        <div class="slide" id="slide3">
+            <div class="text-content">
+                <h3>Rajesh Promoters in</h3>
+            <h1 style="color:#EA892A;>Auroville</h1>
+            <p><i class="fas fa-map-marker-alt"></i>Ganghi Nagar,Tirupur</p>
+            <h1>&#8377;6.5L to 8L</h1>
+            <button style="background-color:#1E2B4C;color: white;">More Details<i class="fas fa-arrow-right"></i></button>
+            </div>
+            <img src="image/h3.jpg" alt="Image for Page 3">
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
